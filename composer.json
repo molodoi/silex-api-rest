@@ -1,0 +1,22 @@
+{
+    "name": "etudiant/silex",
+    "authors": [
+        {
+            "name": "molodoi",
+            "email": "mr_stat12@hotmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.27",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "SilexApi\\": "src"
+        }
+    }
+}
